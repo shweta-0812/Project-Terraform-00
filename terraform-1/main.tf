@@ -1,5 +1,3 @@
-# main.tf file contains all resource and data source blocks
-
 terraform {
   required_providers {
     docker = {
@@ -11,8 +9,6 @@ terraform {
       source  = "hashicorp/aws"
       version = "5.34.0"
     }
-
-    required_version = ">= 1.7"
   }
 }
 
