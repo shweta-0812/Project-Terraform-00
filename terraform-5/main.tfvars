@@ -1,0 +1,5 @@
+aws_region="ap-south-1"
+environment="production"
+ecr_repo_name="TestECRRepo"
+ecr_assume_role_name="ECRAccessRole"
+ecr_policy_name="ECRAccessPolicy"
