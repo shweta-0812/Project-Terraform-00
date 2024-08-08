@@ -1,26 +1,12 @@
 # Project-Terraform-00
+This project is a set of examples on Terraform.
 
-How to modularise Terraform code so that it is
-- legible
-- scalable
-- maintainable
+Each example file is self-sufficient and only requires you to install Terrafom CLI to run and understand on your local machine.
 
-It covers:
-
-code style and formatting
-
-resource organization
-
-lifecycle management through meta-arguments, versioning, and sensitive data management.
-
-Refer - https://developer.hashicorp.com/terraform/language/style
-
-Things to remember:
-1. Run `terraform fmt` and `terraform validate` before committing your code.
-2. Always include a default provider configuration.
+## Some common things about the repository.
 
 ### Environments Directory
-The environment directory contains the Terraform configurations specific to each environment (e.g., test, stage, production). These configurations include the environment-specific settings, such as the region, instance sizes, and any other parameters that might vary between environments.
+The environment directory contains the Terraform configurations specific to each environment (e.g., test, stage, production).
 
 Key Characteristics:
 
